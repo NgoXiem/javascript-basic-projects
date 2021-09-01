@@ -1,1 +1,1 @@
-These are small projects built in JavaScript
+These are small projects I learnt and built in JavaScript
