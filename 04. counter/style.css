@@ -1,0 +1,39 @@
+.container {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    border-radius: 10px;
+    padding: 10px;
+}
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: #73AD21
+}
+
+#value {
+    color: black;
+}
+
+button {
+    border: 2px solid #73AD21;
+    text-align: center;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.button-wrapper {
+    margin: auto 5px;
+    text-align: center;
+}
+
+button:hover{
+    background-color: #73AD21;
+}
+
+#value {
+    font-size: 250%;
+}
+
+
+
