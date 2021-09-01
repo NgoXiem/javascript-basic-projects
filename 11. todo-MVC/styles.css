@@ -1,0 +1,135 @@
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
+}
+body { 
+    text-align: center;
+    opacity: 0.8;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+main {
+    width: max-content;
+    margin: 0 auto;
+}
+footer {
+    font-size: 0.5em;
+    margin-top: 50px;
+}
+h1 {
+    font-size: 4em;
+    font-weight: 500;;
+    margin: 0;
+    color: crimson;
+}
+span {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.filter, .item, .question {
+    min-height: 55px; 
+    min-width: 500px;
+}
+
+/* ===============
+      Text Form 
+ =================
+*/
+::placeholder{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.question, .list {
+    border: 1px solid gray; 
+    border-bottom: none;
+}
+.question {
+    text-align: left;
+    padding: 0 15px;
+}
+.question input {
+    border: none;
+    font-size: 0.9em;
+    padding: 15px;
+}
+.question input:focus {
+    outline: none;
+}
+
+/* =========== 
+      Todos
+ =================
+*/
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+}
+.item label {
+    padding-left: 10px;
+}
+.item button {
+    border: none;
+    background-color: white;
+    color: crimson;
+}
+ i {
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+
+/* ==================
+      Filter Buttons 
+ ====================
+*/
+.filter {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between; 
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    
+}
+ul {
+    padding-bottom: 5px;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+.filter p {
+    font-size: 0.6em;
+}
+
+.filter button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.filter button:hover {
+    border: 1px solid #888A84;
+}
+.clicked {
+    border: 1px solid #666863;
+}
+.hide {
+    display: none;
+}
