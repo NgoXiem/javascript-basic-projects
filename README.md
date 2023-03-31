@@ -1,1 +1,2 @@
-These are small projects I learnt and built in JavaScript
+Test
+hese are small projects I learnt and built in JavaScript
